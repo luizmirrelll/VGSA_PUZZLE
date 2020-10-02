@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/art"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/content"
+        android:layout_width="395dp"
+        android:layout_height="490dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:gravity="center|top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:tag="row1">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:onClick="cekbtn"
+                android:tag="1"
+                android:text="@string/btn1" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:onClick="cekbtn"
+                android:tag="2"
+                android:text="@string/btn2" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:onClick="cekbtn"
+                android:tag="3"
+                android:text="@string/btn3" />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:onClick="cekbtn"
+                android:tag="4"
+                android:text="@string/btn4" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:onClick="cekbtn"
+                android:tag="1"
+                android:text="@string/btn5" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:onClick="cekbtn"
+                android:tag="2"
+                android:text="@string/btn6" />
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:onClick="cekbtn"
+                android:tag="3"
+                android:text="@string/btn7" />
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:onClick="cekbtn"
+                android:tag="4"
+                android:text="@string/btn8" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:onClick="cekbtn"
+                android:tag="1"
+                android:text="@string/btn9" />
+
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:onClick="cekbtn"
+                android:tag="2"
+                android:text="@string/btn10" />
+
+            <Button
+                android:id="@+id/b11"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:onClick="cekbtn"
+                android:tag="3"
+                android:text="@string/btn11" />
+
+            <Button
+                android:id="@+id/b12"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:onClick="cekbtn"
+                android:tag="4"
+                android:text="@string/btn12" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b13"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:onClick="cekbtn"
+                android:tag="1"
+                android:text="@string/btn13" />
+
+            <Button
+                android:id="@+id/b14"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:onClick="cekbtn"
+                android:tag="2"
+                android:text="@string/btn13" />
+
+            <Button
+                android:id="@+id/b15"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:onClick="cekbtn"
+                android:tag="3"
+                android:text="@string/btn15" />
+
+            <Button
+                android:id="@+id/b16"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:background="#4CAF50"
+                android:onClick="cekbtn"
+                android:tag="4"
+                android:text="@string/btn16" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="296dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:gravity="center"
+        android:text="@string/judul"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/judul" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

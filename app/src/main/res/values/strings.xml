@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ALOYSIUS MIREL</string>
+    <string name="btn1">A</string>
+    <string name="btn2">B</string>
+    <string name="btn3">C</string>
+    <string name="btn4">D</string>
+    <string name="btn5">E</string>
+    <string name="btn6">F</string>
+    <string name="btn7">G</string>
+    <string name="btn8">H</string>
+    <string name="btn9">I</string>
+    <string name="btn10">J</string>
+    <string name="btn11">K</string>
+    <string name="btn12">L</string>
+    <string name="btn13">M</string>
+    <string name="btn14">N</string>
+    <string name="btn15">O</string>
+    <string name="btn16">*</string>
+    <string name="menu1">AGAIN</string>
+    <string name="menu2">EXIT</string>
+    <string name="judul">Puzzle Alfabet</string>
+    <string name="keluar">EXIT</string>
+    <string name="pergerakan">MOVE</string>
+</resources>
